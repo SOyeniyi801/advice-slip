@@ -3,16 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>Random Advice Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Advice Slip</title>
   </head>
   <body>
     <div class="advice-container">
-      <p class="advice-header"></p>
+      <p class="advice-id"></p>
       <p class="advice-body">Press the button to recieve advice</p>
+      <img src="./images/pattern-divider-desktop.svg" alt="" class="divider-desktop"/>
+      <img src="./images/pattern-divider-mobile.svg" alt="" class="divider-mobile"/>
     </div>
+    
     <div class="btn-container">
-        <button type="button" id="btnAdvice">Press Me</button>
+      <button type="button" id="btnAdvice">
+        <img src="./images/icon-dice.svg" alt="dice" />
+      </button>
     </div>
   </body>
   <script src="main.js"></script>
